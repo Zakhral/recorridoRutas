@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Rutas</title>
+</head>
+<body>
+    <h1>RUTA DE TRANSPORTE</h1>
+
+    <form>
+        <label for="IntroNumero">
+            NUMERO DE RUTA: <input type="number" id="IntroNumero"><br><br>
+        </label>
+        <label for="IntroNombre">
+            BASE: <input type="text" id="IntroBase"><br><br>
+        </label>
+        <label for="IntroMinutos">
+            MINUTOS: <input type="number" id="IntroMinutos"><br><br>
+        </label>
+    </form>
+
+        <button type="button" id="btnNuevo">Agregar   </button>
+        <button type="button" id="btnBuscar">Buscar</button>
+        <button type="button" id="btnEliminar">Eliminar</button>
+        <button type='button' id='btnImprimir'>Imprimir</button>
+        <button type="reset">Cancelar</button><br><br>
+
+        <div id="resultado1" style="border: 2px solid black; padding: 10px; width: 400px;"> <h2>MOSTRAR RUTA</h2></div>
+        
+    <h1>TARJETA DE TRABAJO</h1>
+
+    <form> 
+        <label for="IntroBaseInicio">
+            BASE DE INICIO: <input type="text" id="IntroBaseInicio"><br><br>
+        </label>
+        <label for="IntroHoraInicio">
+            TIEMPO DE INICIO: <br><br>
+            Hrs.<input type="text" id="IntroHoraInicio">
+            Min.<input type="text" id="IntroMinutoInicio"><br><br>
+        </label>
+        <label for="IntroHorasSalida">
+            TIEMPO DE SALIDA: <br><br>
+            Hrs.<input type="text" id="IntroHoraSalida">
+            Min.<input type="text" id="IntroMinutoSalida"><br><br>
+        </label>
+    </form>
+
+    <button type='button' id='btnMostrar'>Mostrar</button><br><br>
+
+    <div id="resultado2" style="border: 2px solid black; padding: 10px; width: 300px;"> <h2>MOSTRAR TARJETA DE TRABAJO</h2></div>
+
+    <script src='transporte listas circulares.js'></script>
+</body>
+</html>
